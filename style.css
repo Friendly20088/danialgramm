@@ -1,0 +1,162 @@
+.ALL{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    margin: 0 1vmin;
+    font-family: "Inter";
+}
+p{
+    margin: 0 1vmin;
+    font-family: "Inter";
+}
+.danialgrm{
+    margin-left: 20vmin;
+}
+.main{
+    margin-top: 5vmin;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130vmin;
+}
+.profileimagediv{
+    height: 30vmin;  
+    width: 30vmin;
+    margin-right: 5vmin;
+}
+.profileimage{
+    background-color: rgb(106, 154, 216);
+    width: 30vmin;
+    height: 30vmin;
+    border-radius: 100vmax;
+    object-position: top;
+    object-fit: cover;
+}
+.danialmain{
+    margin-top: 20px;
+    display: flex;
+}
+.galk{
+    height: 31px;
+}
+.subs{
+    margin-left: 40px;
+    border-radius: 100px;
+    height: 4vmin;
+    padding: 1vmin 15vmin;
+    background-color: rgb(24, 119, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub{
+    position: absolute;
+    font-size: 3.5vmin;
+    color: white;
+}
+.unsub{
+    opacity: 0;
+    color: white;
+    position: absolute;
+    font-size: 3.5vmin;
+}
+.count{
+    margin-top: 3vmin;
+    display: flex;
+}
+.cnt{
+    font-size: 3vmin;
+}
+.opisan{
+    margin-top: 45px;
+}
+.ya{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.post{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: 50px;
+}
+.glavn{
+    display: flex;
+    align-items: center;
+}
+.miniprofileimagediv{
+    height: 40px;
+    width: 40px;
+}
+.miniprofileimage{
+    background-color: rgb(24, 119, 242);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    object-position: top;
+    object-fit: cover;
+}
+.img{
+    margin-left: 2vmin;
+    font-size: 20px;
+}
+.minigalk{
+    height: 20px;
+    
+}
+.divfoto{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.foto{
+    width: 500px;
+}
+.ilikeit{
+    display: flex;
+    align-items: center;
+}
+.likecnt{
+    font-size: 20px;
+    margin: 12px;
+}
+.likes{
+    height: 5vmin;
+    width: 5vmin;
+}
+.dislike{                
+    position: absolute;
+    height: 30px;
+}
+.like{
+    position: absolute;
+    opacity: 0;
+    height: 30px;
+}
+.opisanie{
+    font-size: 20px;
+}
+.comments{
+    margin-top: 1vmin;
+    margin-left: 7vmin;
+}
+.se{
+    width: 130px;
+}
+.send{
+    padding: 4px;
+    margin-top: 1vmin;
+    background-color: rgb(24, 119, 242);
+    width: 10vmin;
+    color: white;
+    border-radius: 1vmin;
+}
+.sends{
+    margin: 0;
+    font-size: 10px;
+}
+.comenta{
+    font-size: 3vmin;
+}

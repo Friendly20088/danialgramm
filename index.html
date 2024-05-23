@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Danialgram</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="ALL">
+            <div class="danialgrmdiv"><h1 class="danialgrm">Danialgram</h1></div>
+            <div class="main">
+                <div class="profileimagediv"><img src="danial.jpg" class="profileimage" alt=""></div>
+                <div class="text">
+                    <div class="danialmain">
+                        <h1 class="danial">Zhakipzhanov Danial</h1>
+                        <img src="verif.png" class="galk" alt="">
+                        <div class="subs" id="subscr" onclick="subs()">
+                            <p class="sub" id="sub">Subscribe</p>
+                            <p class="unsub" id="unsub">You subscribed</p>
+                        </div>
+                    </div>
+                    <div class="count">
+                        <p class="cnt">101 публикации</p>
+                        <p class="cnt" id="cnt">99 подписчиков</p>
+                        <p class="cnt">177 подписок</p>
+                    </div>
+                </div>
+            </div>
+            <div id="posts">
+                <div class="post" id="post">
+                    <div class="glavn">
+                        <div class="miniprofileimagediv"><img src="danial.jpg" class="miniprofileimage" alt=""></div>
+                        <h1 class="img">Zhakipzhanov Danial</h1></div>
+                    <div class="divfoto"><img src="danial2.jpg" class="foto" alt=""></div>
+                    <div class="ilikeit">
+                        <div class="likes" onclick="like1(0)">
+                            <img class="dislike" id="dis1" src="unlove.png" alt="">
+                            <img class="like" id="like1" src="love.png" alt="">
+                        </div>
+                        <p class="likecnt" id="cnt1">0</p>
+                    </div>
+                    <div><p class="opisanie">С днем рождения, жизнь моя!</p></div>
+                    <div class="comments">
+                        <div class="comment" id="comment1">
+                            <p class="comenta">Коментарии:</p>
+                        </div>
+                        <div class="sen">
+                            <input class="se" id="input1" type="text" placeholder="Введите коментарий" maxlength="50">
+                            <div class="send" onclick="send1(0)"><p class="sends">Отправить</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="glavn">
+                        <div class="miniprofileimagediv"><img src="danial.jpg" class="miniprofileimage" alt=""></div>
+                        <h1 class="img">Zhakipzhanov Danial</h1></div>
+                    <div class="divfoto"><img src="danial.jpg" class="foto" alt=""></div>
+                    <div class="ilikeit">
+                        <div class="likes" onclick="like1(1)">
+                            <img class="dislike" id="dis1" src="unlove.png" alt="">
+                            <img class="like" id="like1" src="love.png" alt="">
+                        </div>
+                        <p class="likecnt" id="cnt1">0</p>
+                    </div>
+                    <div><p class="opisanie">У меня новая аватарка!</p></div>
+                    <div class="comments">
+                        <div class="comment" id="comment1">
+                            <p class="comenta">Коментарии:</p>
+                        </div>
+                        <div class="sen">
+                            <input class="se" id="input1" type="text" placeholder="Введите коментарий" maxlength="50">
+                            <div class="send" onclick="send1(1)"><p class="sends">Отправить</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
